@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-06T11:01:03.029652+05:30",
+  "as_of": "2026-10-06T18:09:45.904341+05:30",
   "brand": {
     "name": "kishore",
     "timezone": "Asia/Kolkata"
@@ -11,10 +11,10 @@
       "expected": 5,
       "failed": 0,
       "generated": 5,
-      "missed": 1,
+      "missed": 3,
       "posted": 1,
       "processing": 0,
-      "ready": 3,
+      "ready": 1,
       "source_insufficient": 0
     }
   ],
@@ -29,7 +29,7 @@
   },
   "next_post": {
     "post_type": "IMAGE",
-    "scheduled_local": "13:30",
+    "scheduled_local": "17:30",
     "status": "READY",
     "topic": "Next production post"
   },
@@ -52,13 +52,13 @@
     {
       "post_type": "IMAGE",
       "scheduled_local": "13:30",
-      "status": "READY",
+      "status": "MISSED",
       "topic": "Slot 3"
     },
     {
       "post_type": "IMAGE",
       "scheduled_local": "16:30",
-      "status": "READY",
+      "status": "MISSED",
       "topic": "Slot 4"
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "at": "2026-10-06",
-      "count": 1,
+      "count": 3,
       "kind": "PUBLISHER",
       "result": "MISSED"
     }
@@ -105,13 +105,13 @@
       "local_time": "13:30",
       "post_type": "IMAGE",
       "slot": "Slot 3",
-      "status": "READY"
+      "status": "MISSED"
     },
     {
       "local_time": "16:30",
       "post_type": "IMAGE",
       "slot": "Slot 4",
-      "status": "READY"
+      "status": "MISSED"
     },
     {
       "local_time": "17:30",
@@ -136,13 +136,13 @@
     "configured": 5,
     "failed": 0,
     "generated": 5,
-    "missed": 1,
+    "missed": 3,
     "posted": 1,
     "processing": 0,
-    "ready": 3,
+    "ready": 1,
     "source_insufficient": 0
   },
-  "updated_at": "2026-10-06T11:01:03.029652+05:30",
+  "updated_at": "2026-10-06T18:09:45.904341+05:30",
   "workflows": [
     {
       "count": null,
@@ -155,12 +155,12 @@
       "state": "SUCCEEDED"
     },
     {
-      "count": 1,
+      "count": 0,
       "enabled": true,
       "id": "linkedin_publisher",
       "label": "LinkedIn Publisher",
-      "observed_at": "2026-10-06T05:30:48Z",
-      "outcome": "SUCCESS",
+      "observed_at": "2026-10-06T07:30:41Z",
+      "outcome": "NO_ELIGIBLE_POSTS",
       "reason": "RECORDED_OUTCOME",
       "state": "SUCCEEDED"
     },
@@ -179,7 +179,7 @@
       "enabled": true,
       "id": "dashboard_sync",
       "label": "Dashboard Sync",
-      "observed_at": "2026-10-06T04:30:57Z",
+      "observed_at": "2026-10-06T07:30:57Z",
       "outcome": "SUCCESS",
       "reason": "RECORDED_OUTCOME",
       "state": "SUCCEEDED"
